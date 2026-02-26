@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+.card-header {
+  border-radius: 16px 16px 0 0 !important;
+  border-bottom: 1px solid #e9ecef;
+}
+#task {
+  border-radius: 8px 0 0 8px !important;
+}
+.btn-primary {
+  border-radius: 0 8px 8px 0 !important;
+}
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  border-radius: 8px !important;
+  margin-bottom: 6px;
+  border: 1px solid #e9ecef !important;
+  align-items: center;
+}
+.list-group-item:first-child {
+  border-top: 1px solid #e9ecef !important;
+}
+.empty-list-p {
+  color: #adb5bd;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+#filter {
+  border-radius: 8px !important;
+}
+#btn-clear {
+  border-radius: 8px !important;
+}
+.list-group {
+  max-height: 280px;
+  overflow-y: auto;
+}
